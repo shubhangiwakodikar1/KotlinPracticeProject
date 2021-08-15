@@ -64,6 +64,11 @@ class Square() : Rectangle(), Polygon {
     override fun openDraw() {
         super.openDraw()
     }
+
+//    var cValue: Int by Delegates.vetoable(1) {
+//        property, oldValue, newValue ->
+//        println("oldValue = $oldValue, newValue = $newValue, property = $property")
+//    }
 }
 
 abstract class AbstractRectangle : Rectangle() {
